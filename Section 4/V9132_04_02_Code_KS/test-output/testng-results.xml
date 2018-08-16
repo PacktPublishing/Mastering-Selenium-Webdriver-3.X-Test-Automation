@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AlertsTestSuite" duration-ms="76166" started-at="2018-06-30T14:12:19Z" finished-at="2018-06-30T14:13:35Z">
+    <groups>
+    </groups>
+    <test name="AlertsTest" duration-ms="76166" started-at="2018-06-30T14:12:19Z" finished-at="2018-06-30T14:13:35Z">
+      <class name="com.packt.tests.AlertsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.packt.tests.AlertsTest@5b275dab]" name="setUp" is-config="true" duration-ms="7316" started-at="2018-06-30T14:12:19Z" finished-at="2018-06-30T14:12:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="jSAlertButtonTest()[pri:1, instance:com.packt.tests.AlertsTest@5b275dab]" name="jSAlertButtonTest" duration-ms="11312" started-at="2018-06-30T14:12:27Z" finished-at="2018-06-30T14:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jSAlertButtonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.AlertsTest@5b275dab]" name="tearDown" is-config="true" duration-ms="665" started-at="2018-06-30T14:12:38Z" finished-at="2018-06-30T14:12:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.packt.tests.AlertsTest@5b275dab]" name="setUp" is-config="true" duration-ms="6870" started-at="2018-06-30T14:12:39Z" finished-at="2018-06-30T14:12:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="jSAlertConfirmTest()[pri:2, instance:com.packt.tests.AlertsTest@5b275dab]" name="jSAlertConfirmTest" duration-ms="11511" started-at="2018-06-30T14:12:45Z" finished-at="2018-06-30T14:12:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jSAlertConfirmTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.AlertsTest@5b275dab]" name="tearDown" is-config="true" duration-ms="699" started-at="2018-06-30T14:12:57Z" finished-at="2018-06-30T14:12:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.packt.tests.AlertsTest@5b275dab]" name="setUp" is-config="true" duration-ms="6745" started-at="2018-06-30T14:12:58Z" finished-at="2018-06-30T14:13:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="jSAlertCancelTest()[pri:3, instance:com.packt.tests.AlertsTest@5b275dab]" name="jSAlertCancelTest" duration-ms="11273" started-at="2018-06-30T14:13:04Z" finished-at="2018-06-30T14:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jSAlertCancelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.AlertsTest@5b275dab]" name="tearDown" is-config="true" duration-ms="711" started-at="2018-06-30T14:13:16Z" finished-at="2018-06-30T14:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.packt.tests.AlertsTest@5b275dab]" name="setUp" is-config="true" duration-ms="6943" started-at="2018-06-30T14:13:16Z" finished-at="2018-06-30T14:13:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="jSAlertPromptTest()[pri:4, instance:com.packt.tests.AlertsTest@5b275dab]" name="jSAlertPromptTest" duration-ms="11416" started-at="2018-06-30T14:13:23Z" finished-at="2018-06-30T14:13:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jSAlertPromptTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.AlertsTest@5b275dab]" name="tearDown" is-config="true" duration-ms="666" started-at="2018-06-30T14:13:35Z" finished-at="2018-06-30T14:13:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.AlertsTest -->
+    </test> <!-- AlertsTest -->
+  </suite> <!-- AlertsTestSuite -->
+</testng-results>

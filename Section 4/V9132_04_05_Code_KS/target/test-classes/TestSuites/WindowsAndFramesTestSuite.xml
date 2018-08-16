@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="WindowsAndFramesTestSuite" verbose="1" >
+
+	<test name="WindowsAndFramesTest">
+		<classes>
+			<class name="com.packt.tests.WindowsAndFramesTest">
+				<methods>
+					<include name="wysiwygEditorTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

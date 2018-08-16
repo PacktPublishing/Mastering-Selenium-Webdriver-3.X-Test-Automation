@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LogInTestSuiteVariousBrowsers]">
+  <parameter name="browser" value="internet explorer"/>
+  <test name="LogInTest-IE(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.packt.tests.LogInTest">
+        <methods>
+          <include name="logInTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.packt.tests.LogInTest -->
+    </classes>
+  </test> <!-- LogInTest-IE(failed) -->
+</suite> <!-- Failed suite [LogInTestSuiteVariousBrowsers] -->

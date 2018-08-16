@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="DynamicallyLoadedElementsTestSuite" verbose="1" >
+
+	<test name="DynamicallyLoadedElementsTest">
+		<classes>
+			<class name="com.packt.tests.DynamicallyLoadedElementsTest">
+			</class>
+		</classes>
+	</test>
+</suite>

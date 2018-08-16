@@ -1,0 +1,89 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RegressionTestSuite" verbose="1" parallel="tests"
+	thread-count="2">
+	<parameter name="environment" value="sauce"></parameter>
+	<!-- <parameter name="environment" value="grid"></parameter> -->
+
+	<test name="PositiveLogInTest-Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="platform" value="Windows 7"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.login.tests.PositiveLoginTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="PositiveLogInTest-Firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="platform" value="macOS 10.13"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.login.tests.PositiveLoginTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="PositiveLogInTest-IE">
+		<parameter name="browser" value="Internet Explorer"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.login.tests.PositiveLoginTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="NegativeLogInTest-Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="platform" value="Windows 7"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.login.tests.NegativeLoginTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="NegativeLogInTest-Firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="platform" value="macOS 10.13"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.login.tests.NegativeLoginTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="NegativeLogInTest-IE">
+		<parameter name="browser" value="Internet Explorer"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.login.tests.NegativeLoginTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="ForgotPasswordTest-Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="platform" value="Windows 7"></parameter>
+		<classes>
+			<class
+				name="com.herokuapp.theinternet.forgotpassword.tests.ForgotPasswordTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="ForgotPasswordTest-Firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="platform" value="macOS 10.13"></parameter>
+		<classes>
+			<class
+				name="com.herokuapp.theinternet.forgotpassword.tests.ForgotPasswordTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="ForgotPasswordTest-IE">
+		<parameter name="browser" value="Internet Explorer"></parameter>
+		<classes>
+			<class
+				name="com.herokuapp.theinternet.forgotpassword.tests.ForgotPasswordTests">
+			</class>
+		</classes>
+	</test>
+
+</suite>

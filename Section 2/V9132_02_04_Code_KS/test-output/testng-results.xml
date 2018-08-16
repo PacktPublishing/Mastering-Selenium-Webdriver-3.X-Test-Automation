@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LogInTesSuite" duration-ms="17988" started-at="2018-06-18T22:13:34Z" finished-at="2018-06-18T22:13:52Z">
+    <groups>
+    </groups>
+    <test name="LogInTest" duration-ms="17988" started-at="2018-06-18T22:13:34Z" finished-at="2018-06-18T22:13:52Z">
+      <class name="com.packt.tests.LogInTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.packt.tests.LogInTest@61a52fbd]" name="setUp" is-config="true" duration-ms="7058" started-at="2018-06-18T18:13:35Z" finished-at="2018-06-18T18:13:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInTest()[pri:0, instance:com.packt.tests.LogInTest@61a52fbd]" name="logInTest" duration-ms="10256" started-at="2018-06-18T18:13:42Z" finished-at="2018-06-18T18:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.LogInTest@61a52fbd]" name="tearDown" is-config="true" duration-ms="662" started-at="2018-06-18T18:13:52Z" finished-at="2018-06-18T18:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.LogInTest -->
+    </test> <!-- LogInTest -->
+  </suite> <!-- LogInTesSuite -->
+</testng-results>

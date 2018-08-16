@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [WindowsAndFramesTestSuite]">
+  <test thread-count="5" name="WindowsAndFramesTest(failed)">
+    <classes>
+      <class name="com.packt.tests.WindowsAndFramesTest">
+        <methods>
+          <include name="wysiwygEditorTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.packt.tests.WindowsAndFramesTest -->
+    </classes>
+  </test> <!-- WindowsAndFramesTest(failed) -->
+</suite> <!-- Failed suite [WindowsAndFramesTestSuite] -->

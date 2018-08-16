@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ScrollTestSuite" duration-ms="49639" started-at="2018-06-30T15:00:54Z" finished-at="2018-06-30T15:01:44Z">
+    <groups>
+    </groups>
+    <test name="ScrollTest" duration-ms="49639" started-at="2018-06-30T15:00:54Z" finished-at="2018-06-30T15:01:44Z">
+      <class name="com.packt.tests.ScrollTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.packt.tests.ScrollTest@523884b2]" name="setUp" is-config="true" duration-ms="7430" started-at="2018-06-30T15:00:54Z" finished-at="2018-06-30T15:01:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="scrollTest()[pri:0, instance:com.packt.tests.ScrollTest@523884b2]" name="scrollTest" duration-ms="41495" started-at="2018-06-30T15:01:01Z" finished-at="2018-06-30T15:01:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.ScrollTest@523884b2]" name="tearDown" is-config="true" duration-ms="685" started-at="2018-06-30T15:01:43Z" finished-at="2018-06-30T15:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.ScrollTest -->
+    </test> <!-- ScrollTest -->
+  </suite> <!-- ScrollTestSuite -->
+</testng-results>

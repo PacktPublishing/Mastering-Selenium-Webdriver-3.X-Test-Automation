@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LogInTestSuiteVariousBrowsers" duration-ms="106372" started-at="2018-07-04T13:58:23Z" finished-at="2018-07-04T14:00:09Z">
+    <groups>
+    </groups>
+    <test name="LogInTest-CH" duration-ms="27538" started-at="2018-07-04T13:58:23Z" finished-at="2018-07-04T13:58:50Z">
+      <class name="com.packt.tests.LogInTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.packt.tests.LogInTest@3ffc5af1]" name="setUp" is-config="true" duration-ms="9410" started-at="2018-07-04T13:58:23Z" finished-at="2018-07-04T13:58:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInTest()[pri:0, instance:com.packt.tests.LogInTest@3ffc5af1]" name="logInTest" duration-ms="17955" started-at="2018-07-04T13:58:32Z" finished-at="2018-07-04T13:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.LogInTest@3ffc5af1]" name="tearDown" is-config="true" duration-ms="144" started-at="2018-07-04T13:58:50Z" finished-at="2018-07-04T13:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.LogInTest -->
+    </test> <!-- LogInTest-CH -->
+    <test name="LogInTest-FF" duration-ms="27294" started-at="2018-07-04T13:58:50Z" finished-at="2018-07-04T13:59:17Z">
+      <class name="com.packt.tests.LogInTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.packt.tests.LogInTest@6eebc39e]" name="setUp" is-config="true" duration-ms="9482" started-at="2018-07-04T13:58:50Z" finished-at="2018-07-04T13:59:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInTest()[pri:0, instance:com.packt.tests.LogInTest@6eebc39e]" name="logInTest" duration-ms="16627" started-at="2018-07-04T13:59:00Z" finished-at="2018-07-04T13:59:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.LogInTest@6eebc39e]" name="tearDown" is-config="true" duration-ms="1180" started-at="2018-07-04T13:59:16Z" finished-at="2018-07-04T13:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.LogInTest -->
+    </test> <!-- LogInTest-FF -->
+    <test name="LogInTest-IE" duration-ms="27323" started-at="2018-07-04T13:59:18Z" finished-at="2018-07-04T13:59:45Z">
+      <class name="com.packt.tests.LogInTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.packt.tests.LogInTest@31ef45e3]" name="setUp" is-config="true" duration-ms="8810" started-at="2018-07-04T13:59:18Z" finished-at="2018-07-04T13:59:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInTest()[pri:0, instance:com.packt.tests.LogInTest@31ef45e3]" name="logInTest" duration-ms="18355" started-at="2018-07-04T13:59:26Z" finished-at="2018-07-04T13:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.LogInTest@31ef45e3]" name="tearDown" is-config="true" duration-ms="154" started-at="2018-07-04T13:59:45Z" finished-at="2018-07-04T13:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.LogInTest -->
+    </test> <!-- LogInTest-IE -->
+    <test name="LogInTest-DEF" duration-ms="24104" started-at="2018-07-04T13:59:45Z" finished-at="2018-07-04T14:00:09Z">
+      <class name="com.packt.tests.LogInTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.packt.tests.LogInTest@271053e1]" name="setUp" is-config="true" duration-ms="6615" started-at="2018-07-04T13:59:45Z" finished-at="2018-07-04T13:59:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[grid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInTest()[pri:0, instance:com.packt.tests.LogInTest@271053e1]" name="logInTest" duration-ms="17465" started-at="2018-07-04T13:59:51Z" finished-at="2018-07-04T14:00:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.LogInTest@271053e1]" name="tearDown" is-config="true" duration-ms="20" started-at="2018-07-04T14:00:09Z" finished-at="2018-07-04T14:00:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.LogInTest -->
+    </test> <!-- LogInTest-DEF -->
+  </suite> <!-- LogInTestSuiteVariousBrowsers -->
+</testng-results>

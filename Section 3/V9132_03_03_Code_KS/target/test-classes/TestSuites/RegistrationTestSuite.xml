@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RegistrationTestSuite" verbose="1" >
+
+	<test name="RegistrationTest">
+		<classes>
+			<class name="com.packt.tests.RegistrationTest">
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ScrollTestSuite" verbose="1" >
+
+	<test name="ScrollTest">
+		<classes>
+			<class name="com.packt.tests.ScrollTest">
+			</class>
+		</classes>
+	</test>
+</suite>

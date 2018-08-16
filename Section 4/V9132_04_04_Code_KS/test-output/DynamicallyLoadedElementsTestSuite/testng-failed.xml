@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DynamicallyLoadedElementsTestSuite]">
+  <test thread-count="5" name="DynamicallyLoadedElementsTest(failed)">
+    <classes>
+      <class name="com.packt.tests.DynamicallyLoadedElementsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startButtonTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.packt.tests.DynamicallyLoadedElementsTest -->
+    </classes>
+  </test> <!-- DynamicallyLoadedElementsTest(failed) -->
+</suite> <!-- Failed suite [DynamicallyLoadedElementsTestSuite] -->

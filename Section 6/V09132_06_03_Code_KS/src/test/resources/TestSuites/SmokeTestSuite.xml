@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SmokeTestSuite" >
+	<parameter name="environment" value="local"></parameter>
+
+	<test name="PositiveLogInTest-Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.login.tests.PositiveLoginTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="NegativeLogInTest-Firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.login.tests.NegativeLoginTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="ForgotPasswordTest-Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.herokuapp.theinternet.forgotpassword.tests.ForgotPasswordTests">
+			</class>
+		</classes>
+	</test>
+
+</suite>

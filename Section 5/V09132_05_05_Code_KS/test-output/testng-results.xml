@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LogInTestSuiteVariousBrowsers" duration-ms="114248" started-at="2018-07-04T14:21:13Z" finished-at="2018-07-04T14:23:07Z">
+    <groups>
+    </groups>
+    <test name="LogInTest-Chrome" duration-ms="30522" started-at="2018-07-04T14:21:13Z" finished-at="2018-07-04T14:21:43Z">
+      <class name="com.packt.tests.LogInTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.packt.tests.LogInTest@3ffc5af1]" name="setUp" is-config="true" duration-ms="10041" started-at="2018-07-04T14:21:13Z" finished-at="2018-07-04T14:21:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@306e95ec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInTest()[pri:0, instance:com.packt.tests.LogInTest@3ffc5af1]" name="logInTest" duration-ms="20215" started-at="2018-07-04T14:21:23Z" finished-at="2018-07-04T14:21:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.LogInTest@3ffc5af1]" name="tearDown" is-config="true" duration-ms="239" started-at="2018-07-04T14:21:43Z" finished-at="2018-07-04T14:21:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.LogInTest -->
+    </test> <!-- LogInTest-Chrome -->
+    <test name="LogInTest-Firefox" duration-ms="47168" started-at="2018-07-04T14:21:43Z" finished-at="2018-07-04T14:22:30Z">
+      <class name="com.packt.tests.LogInTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.packt.tests.LogInTest@6eebc39e]" name="setUp" is-config="true" duration-ms="27067" started-at="2018-07-04T14:21:43Z" finished-at="2018-07-04T14:22:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS 10.13]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@52af26ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInTest()[pri:0, instance:com.packt.tests.LogInTest@6eebc39e]" name="logInTest" duration-ms="19873" started-at="2018-07-04T14:22:10Z" finished-at="2018-07-04T14:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.LogInTest@6eebc39e]" name="tearDown" is-config="true" duration-ms="225" started-at="2018-07-04T14:22:30Z" finished-at="2018-07-04T14:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.LogInTest -->
+    </test> <!-- LogInTest-Firefox -->
+    <test name="LogInTest-IE" duration-ms="36485" started-at="2018-07-04T14:22:30Z" finished-at="2018-07-04T14:23:07Z">
+      <class name="com.packt.tests.LogInTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.packt.tests.LogInTest@31ef45e3]" name="setUp" is-config="true" duration-ms="13282" started-at="2018-07-04T14:22:30Z" finished-at="2018-07-04T14:22:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@6fd83fc1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInTest()[pri:0, instance:com.packt.tests.LogInTest@31ef45e3]" name="logInTest" duration-ms="22950" started-at="2018-07-04T14:22:44Z" finished-at="2018-07-04T14:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.LogInTest@31ef45e3]" name="tearDown" is-config="true" duration-ms="250" started-at="2018-07-04T14:23:07Z" finished-at="2018-07-04T14:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.LogInTest -->
+    </test> <!-- LogInTest-IE -->
+  </suite> <!-- LogInTestSuiteVariousBrowsers -->
+</testng-results>

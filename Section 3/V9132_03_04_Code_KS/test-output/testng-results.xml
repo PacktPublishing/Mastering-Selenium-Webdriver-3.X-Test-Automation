@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegistrationTestSuite" duration-ms="50492" started-at="2018-06-23T15:44:57Z" finished-at="2018-06-23T15:45:48Z">
+    <groups>
+    </groups>
+    <test name="RegistrationTest" duration-ms="50492" started-at="2018-06-23T15:44:57Z" finished-at="2018-06-23T15:45:48Z">
+      <class name="com.packt.tests.RegistrationTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.packt.tests.RegistrationTest@523884b2]" name="setUp" is-config="true" duration-ms="7348" started-at="2018-06-23T15:44:57Z" finished-at="2018-06-23T15:45:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registrationTest()[pri:0, instance:com.packt.tests.RegistrationTest@523884b2]" name="registrationTest" duration-ms="42427" started-at="2018-06-23T15:45:05Z" finished-at="2018-06-23T15:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.RegistrationTest@523884b2]" name="tearDown" is-config="true" duration-ms="691" started-at="2018-06-23T15:45:47Z" finished-at="2018-06-23T15:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.RegistrationTest -->
+    </test> <!-- RegistrationTest -->
+  </suite> <!-- RegistrationTestSuite -->
+</testng-results>

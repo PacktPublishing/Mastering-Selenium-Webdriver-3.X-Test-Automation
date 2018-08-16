@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="LogInTestSuiteVariousBrowsers" verbose="1">
+
+	<test name="LogInTest-CH">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.packt.tests.LogInTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="LogInTest-FF">
+	<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.packt.tests.LogInTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="LogInTest-IE">
+	<parameter name="browser" value="ie"></parameter>
+		<classes>
+			<class name="com.packt.tests.LogInTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="LogInTest-DEF">
+	<parameter name="browser" value="internet explorer"></parameter>
+		<classes>
+			<class name="com.packt.tests.LogInTest">
+			</class>
+		</classes>
+	</test>
+</suite>
