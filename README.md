@@ -23,12 +23,13 @@ To fully benefit from the coverage included in this course, you will need:<br/>
 This course is designed for manual software testers or software developer who want to learn Selenium WebDriver from scratch, to be able to develop advanced and easy maintainable test automation frameworks. No prior knowledge of automation is required.
 ### Technical Requirements
 This course has the following software requirements:<br/>
-QA experience
-HTML and XML knowledge
-Understanding Object-Oriented Programming Concepts
-Some experience with Java or other OOP language
-Java Development Kit and Apache Maven installed
-Eclipse or Intellij IDEs
+<UL>
+<LI>QA experience
+<LI>HTML and XML knowledge
+<LI>Understanding Object-Oriented Programming Concepts
+<LI>Some experience with Java or other OOP language
+<LI>Java Development Kit and Apache Maven installed
+<LI>Eclipse or Intellij IDEs</LI></UL>
 
 
 ## Related Products
